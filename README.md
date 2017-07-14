@@ -1,5 +1,5 @@
 # TFG_miguelvp
-TFG sobre DiseÃ±o e implementaciÃ³n de un sistema de gestiÃ³n del uso de equipos basado en la tecnologÃ­a NFC
+TFG sobre Diseño e implementación de un sistema de gestión del uso de equipos basado en la tecnologí­a NFC
 
 El sistema de gestión de reservas se encuentra dividido en dos implementaciones desarrolladas: la primera sobre Android para una aplicación y la segunda para un servidor LAMP.
 
