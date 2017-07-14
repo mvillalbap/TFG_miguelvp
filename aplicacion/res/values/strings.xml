@@ -1,0 +1,93 @@
+<resources>
+
+    <string name="app_name" translatable="false">Instrumentos105</string>
+    <string name="sesion">Log in</string>
+    <string name="consultar">Check</string>
+    <string name="tag">New Tag</string>
+    <string name="borrado">Erase Tag</string>
+    <string name="user">User</string>
+    <string name="intUser">Username</string>
+    <string name="failed">Log in error</string>
+    <string name="pass">Password</string>
+    <string name="intPass">Enter password</string>
+    <string name="enviar">Send</string>
+    <string name="salir">Quit</string>
+    <string name="tituloSalir">Log out</string>
+    <string name="preguntaSalir">"Are you sure you want to exit?"</string>
+    <string name="activar">Go to settings</string>
+    <string name="tituloActivar">NFC Technology</string>
+    <string name="preguntaActivar">"You have NFC technology disabled. Would you like to enable it?"</string>
+    <string name="preguntaSesion">Log in to reserve</string>
+    <string name="tituloEscribir">Warning</string>
+    <string name="confirmarEscribir">First you have to confirm write with the selected name</string>
+    <string name="aceptar">Accept</string>
+    <string name="cancelar">Cancel</string>
+    <string name="waiting">Checking data</string>
+    <string name="aviso">Place your device over the tag you want to write</string>
+    <string name="avisoBorrar">Place your device over the tag you want to erase</string>
+    <string name="instrumento">Tool name</string>
+    <string name="intInst">Enter name</string>
+    <string name="escribir">Write</string>
+    <string name="importante">Important warning</string>
+    <string name="servidor">"The tool will be deleted in the server. Would you like to continue?"</string>
+    <string name="buscar">Search</string>
+    <string name="instrum_option">Tool</string>
+    <string name="cambiar"><u>Change the server URL</u></string>
+    <string name="notif_reserva">You have successfully reserved this tool</string>
+    <string name="notif_aviso">Tool you needed is now free</string>
+    <string name="info_tag">The tag contains information. Do you want to overwrite it?</string>
+    <string name="server_connection">Establishing connection to the server</string>
+    <string name="check_name">Checking tool name</string>
+    <string name="duplicado">The tool already exists. Would you like to create a duplicate?</string>
+    <string name="res_empty">No elements have been found</string>
+    <string name="server_dir">Server URL (without http://)</string>
+    <string name="malNotif">Wrong notification</string>
+    <string name="sync">Sync</string>
+    <string name="settings">Settings</string>
+    <string name="simpleIncidencia">Incidences</string>
+    <string name="incidencia">Incidence from</string>
+    <string name="sinIncidencias">There are any incidences</string>
+    <string name="notifIncidencias">Notify incidence</string>
+    <string name="antInc">Previous incidences</string>
+    <string name="noInc">No changes</string>
+    <string name="anyInc">Without incidences</string>
+    <string name="newInc">New incidences</string>
+    <string name="eraseInc">Clean incidences and add new ones</string>
+    <string name="cargar">Load more</string>
+
+    <!-- Mensajes de Toast -->
+    <string name="t_noW">You cannot write the tag</string>
+    <string name="t_connect">You need an Internet connection to manage tools</string>
+    <string name="t_invalid">Invalid name. You can only use ASCII characters except \' or \"</string>
+    <string name="t_create">Tool created</string>
+    <string name="t_duplicate">Duplicate created</string>
+    <string name="t_noCreate">The tool could not be added to database</string>
+    <string name="t_noAdd">The tool has not be added</string>
+    <string name="t_user">User error. Contact the manager</string>
+    <string name="t_yetExist">There is a tool with the same name</string>
+    <string name="t_incorrect">Incorrect password</string>
+    <string name="t_server">Error trying to connect to the server</string>
+    <string name="t_loggin">You need to be logged in to reserve/free the tool</string>
+    <string name="t_noName">The tag does not have a name</string>
+    <string name="t_fail">Error reading. Try to do it more slowly</string>
+    <string name="t_res">Reserved tool</string>
+    <string name="t_yetRes">Already reserved</string>
+    <string name="t_free">Free tool</string>
+    <string name="t_noExist">The tool does not exist in the server</string>
+    <string name="t_erase">Erased tool</string>
+    <string name="t_eraseProblem">Do not move the device while it is erasing a tag</string>
+    <string name="t_noErase">The tool could not be erased from the database</string>
+    <string name="t_rec_data">Retrieving data</string>
+    <string name="t_saveReg">Saved record</string>
+    <string name="t_eraseReg">Registro descartado</string>
+
+    <!-- Contenido de las reservas -->
+    <string name="header">Reserved by </string>
+    <string name="middle"> since </string>
+    <string name="free">Free</string>
+
+    <!-- Mensajes contextuales -->
+    <string name="borrar">Clear notification</string>
+    <string name="crear">Create notification</string>
+
+</resources>

@@ -1,0 +1,63 @@
+body {
+        font-size: 18px;
+        font-style: Arial;
+        background-color: #bb3;
+        min-width: 480px;
+}
+header {
+        border-bottom-width: 4px;
+        border-bottom-style: groove;
+        margin-bottom: 10px;
+        margin-top: 10px;
+}
+#centrar {
+        margin: auto;
+        text-align: center;
+        background-color: #fff;
+        width: 66%;
+}
+#tabla {
+        margin: auto;
+        border-spacing: 0px;
+        background-color: #ddd;
+}
+#tabla tr th {
+        padding: 0.5em;
+        border-bottom-width: 4px;
+        border-bottom-style: solid;
+        border-color: #222;
+        font-size: 24px;
+}
+#tabla tr td {
+        padding: 0.5em;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-color: #444;
+}
+footer {
+        border-top-width: 4px;
+        border-top-style: groove;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+#ok {
+        background-color: #bfb;
+        border-style: dashed;
+        border-color: #0f0;
+}
+#error {
+        background-color: #fbb;
+        border-style: dashed;
+        border-color: #f00;
+}
+.reserva-link{
+	border:none;
+	outline:none;
+	background:none;
+	cursor:pointer;
+	color:#000;
+	padding:0;
+	text-decoration:none;
+	font-family:inherit;
+	font-size:inherit;
+}

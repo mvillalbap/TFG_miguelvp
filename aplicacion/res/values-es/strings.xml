@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="sesion">Iniciar Sesión</string>
+    <string name="consultar">Consultar</string>
+    <string name="tag">Nuevo Tag</string>
+    <string name="borrado">Borrar Tag</string>
+    <string name="user">Usuario</string>
+    <string name="intUser">Introduce usuario</string>
+    <string name="failed">Error al iniciar sesión</string>
+    <string name="pass">Contraseña</string>
+    <string name="intPass">Introduce contraseña</string>
+    <string name="enviar">Enviar</string>
+    <string name="salir">Salir</string>
+    <string name="tituloSalir">Cerrar sesión</string>
+    <string name="preguntaSalir">"¿Estás seguro que quieres salir?"</string>
+    <string name="activar">Ir a configuración</string>
+    <string name="tituloActivar">Tecnología NFC</string>
+    <string name="preguntaActivar">"No tienes activada la tecnología NFC. ¿Quieres activarla?"</string>
+    <string name="preguntaSesion">Inicia sesión para reservar</string>
+    <string name="tituloEscribir">Advertencia</string>
+    <string name="confirmarEscribir">Primero debes confirmar escribir con el nombre seleccionado</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="waiting">Comprobando datos</string>
+    <string name="aviso">Ponte encima del tag a escribir</string>
+    <string name="avisoBorrar">Ponte encima del tag a borrar</string>
+    <string name="instrumento">Nombre del instrumento</string>
+    <string name="intInst">Introduce nombre</string>
+    <string name="escribir">Escribir</string>
+    <string name="importante">Aviso Importante</string>
+    <string name="servidor">El instrumento será borrado en el servidor. ¿Desea continuar?</string>
+    <string name="buscar">Buscar</string>
+    <string name="instrum_option">Instrumento</string>
+    <string name="cambiar"><u>Cambiar URL del servidor</u></string>
+    <string name="notif_reserva">Tienes reservado este instrumento</string>
+    <string name="notif_aviso">Ha quedado libre el instrumento que necesitas</string>
+    <string name="info_tag">El tag contiene información. ¿Deseas sobreescribir el tag?</string>
+    <string name="server_connection">Estableciendo conexión con el servidor</string>
+    <string name="check_name">Comprobando nombre del instrumento</string>
+    <string name="duplicado">El instrumento ya existe. ¿Deseas crear un duplicado del tag?</string>
+    <string name="res_empty">No se han encontrado elementos</string>
+    <string name="server_dir">Dirección del servidor (sin http://)</string>
+    <string name="malNotif">Notificación mal realizada</string>
+    <string name="sync">Sincronizar</string>
+    <string name="settings">Opciones</string>
+    <string name="simpleIncidencia">Incidencias</string>
+    <string name="incidencia">Incidencia del</string>
+    <string name="sinIncidencias">No hay incidencias</string>
+    <string name="notifIncidencias">Notificar incidencias</string>
+    <string name="antInc">Incidencias antiguas</string>
+    <string name="noInc">Sin cambios</string>
+    <string name="anyInc">No hay incidencias</string>
+    <string name="newInc">Añadir incidencias</string>
+    <string name="eraseInc">Incidencias solucionadas y nuevas aparecidas</string>
+    <string name="cargar">Cargar más</string>
+
+    <!-- Mensajes de Toast -->
+    <string name="t_noW">No se puede escribir el tag</string>
+    <string name="t_connect">Necesitas conexion a Internet para administrar instrumentos</string>
+    <string name="t_invalid">Nombre no válido. Deben ser caracteres ASCII no iguales a \' o \"</string>
+    <string name="t_create">Instrumento creado</string>
+    <string name="t_duplicate">Duplicado creado</string>
+    <string name="t_noCreate">No se ha podido añadir a la base de datos</string>
+    <string name="t_noAdd">No se ha añadido</string>
+    <string name="t_user">Error en el usuario. Contacta con el administrador</string>
+    <string name="t_yetExist">"Ya existe un instrumento con ese nombre"</string>
+    <string name="t_incorrect">Contraseña incorrecta</string>
+    <string name="t_server">Fallo al conectar con el servidor</string>
+    <string name="t_loggin">Necesitas haber iniciado sesión para reservar/liberar el equipo</string>
+    <string name="t_noName">El tag se encuentra sin nombre</string>
+    <string name="t_fail">Fallo al leer. Prueba a pasarlo más lento</string>
+    <string name="t_res">Instrumento reservado</string>
+    <string name="t_yetRes">Ya está reservado</string>
+    <string name="t_free">Instrumento liberado</string>
+    <string name="t_noExist">El instrumento no existe en el servidor</string>
+    <string name="t_erase">Instrumento borrado</string>
+    <string name="t_eraseProblem">No muevas el teléfono mientras borras un tag</string>
+    <string name="t_noErase">No se ha podido borrar de la base de datos</string>
+    <string name="t_rec_data">Recuperando datos</string>
+    <string name="t_saveReg">Registro guardado</string>
+    <string name="t_eraseReg">Registro descartado</string>
+
+    <!-- Contenido de las reservas -->
+    <string name="header">Reservado por </string>
+    <string name="middle"> desde el </string>
+    <string name="free">Libre</string>
+
+    <!-- Mensajes contextuales -->
+    <string name="borrar">Borrar aviso</string>
+    <string name="crear">Crear aviso</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?php
+
+	function pasarHexadecimal($in){
+	        $devolver = "";
+	        $longitud = strlen($in);
+	        for($i = 0; $i < $longitud; $i = $i + 1){
+	            $dec = ord(substr($in, $i, 1));
+	            $hex1 = $dec/16;
+	            $hex2 = $dec%16;
+	            if($hex1>9)
+	                $devolver = $devolver . "%" . chr($hex1+55);
+	            else
+	                $devolver = $devolver . "%" . chr($hex1+48);
+	            if($hex2>9)
+	                $devolver = $devolver . "" . chr($hex2+55);
+	            else
+	                $devolver = $devolver . "" . chr($hex2+48);
+	        }
+	        return $devolver;
+	}
+
+        require_once '../nombres.php';
+        $enlace = new mysqli($dbhost,$dbuser,$dbpsswd,$dbname);
+
+        if($enlace->connect_errno){
+                die("Failed connection");
+        }
+
+        $caracNoAdmit = array("'", "\\");
+        if(!($_GET['_query'] === null || $_GET['_query'] === '')){
+                $_GET['_query'] = str_replace($caracNoAdmit, "", $_GET['_query']);
+        }
+	if($entrada = $enlace->query("SELECT * FROM " . $dbhistorial . " WHERE reserva='" . $_GET['_query'] . "' ORDER BY fecha DESC")){
+		foreach($entrada as $fila){
+			print("incidencias='" . pasarHexadecimal($fila['incidencias']) . "'");
+			break;
+		}
+		$entrada->close();
+	}else{
+		die("Error al realizar la búsqueda");
+	}
+
+	$enlace->close();
+?>
